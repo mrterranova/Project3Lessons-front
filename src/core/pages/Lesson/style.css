@@ -1,0 +1,157 @@
+@font-face {
+    font-family: specify;
+    src: url('/fonts/Specify/SpecifyPERSONAL-NormMedium.ttf');
+  }
+@font-face {
+    font-family: gabriele;
+    src: url('/fonts/Gabrielle.ttf');
+  }
+
+.lessonNav {
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(167, 170, 190);
+    margin-left: 25px;
+    border-radius: 25px;
+    opacity: .5;
+}
+.lessonNav{
+    position: absolute;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    border-radius: 25px;  
+}
+.title-lesson{
+    text-align: center;
+    font-family: gabriele;
+    font-size: 80px;
+}
+.lessonDisplay {
+    font-family: specify;
+}
+#btn-scriptures {
+width: 150px;
+/* background-color: #e4d0e4; */
+background:none;
+border: none;
+border-radius: 50px;
+height: 50px;
+color: rgb(2, 2, 53);
+font-size: 2rem;
+font-family: gabriele;
+text-align: center;
+transition: text-shadow 1s;
+text-shadow: 4px 4px 15px rgb(0, 251, 255);
+transition: color 1s;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(55, 41, 126);
+position: absolute;
+margin-top: 200px;
+margin-left: 50px;
+z-index: 1;
+}
+#btn-scriptures:hover {
+    /* color: #fff; */
+    text-shadow: 4px 4px 10px rgb(2, 2, 53);
+
+}
+#btn-bookmark {
+    width: 150px;
+    /* background-color: #e4d0e4; */
+    background:none;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    color: rgb(2, 2, 53);
+    font-size: 2rem;
+    font-family: gabriele;
+    text-align: center;
+    transition: text-shadow 1s;
+    text-shadow: 4px 4px 15px rgb(0, 251, 255);
+    transition: color 1s;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(55, 41, 126);
+    position: absolute;
+    z-index: 2;
+    margin-top: 300px;
+    margin-left: 50px;
+    }
+#btn-bookmark:hover {
+        /* color: #fff; */
+        text-shadow: 4px 4px 10px rgb(2, 2, 53); 
+}
+.lessonDisplay {
+    margin-left: 35%;
+}
+#bookmarkLessons {
+    margin-top: 20px;
+max-width: 70px;
+}
+#notesLessons {
+    max-width: 70px;
+}
+.noteContainer { 
+    width: 300px;
+    height: 300px;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+.bookmarkedPage {
+    width: 100px; 
+    background-color: tomato;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 80%;
+}
+.note-textbox {
+ height: 12rem;
+}
+.handle {
+    cursor: all-scroll;
+}
+#bookmark-container {
+    width:100px; 
+    height:250px; 
+    position:absolute;
+    margin-left: 80%;
+}
+#bookmark-lesson {
+    max-height: 500px;
+    margin-top: -300px;
+    animation-name: ribbonTransition;
+    animation-duration: 2s;
+}
+@keyframes ribbonTransition {
+    0% { transform: translateY(-500px);}
+    100% { transform: skewY(-350px);}
+}
+#btn-removeBookmark {
+    width: 150px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    color: rgb(23, 11, 63);
+    font-size: 2rem;
+    font-family: gabriele;
+    text-align: center;
+    transition: text-shadow 1s;
+    text-shadow: 4px 4px 15px rgb(0, 251, 255);
+    transition: color 1s;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(55, 41, 126);
+    position: absolute;
+    z-index: 2;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+#btn-removeBookmark:hover {
+    color: #fff;
+    text-shadow: 4px 4px 10px rgb(2, 2, 53); 
+}

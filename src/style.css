@@ -1,0 +1,24 @@
+body {
+    background: url('/images/scrollbackground1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#WordsOfGlory {
+    width: 98vw;
+}
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin: 70px 0 0 30%;
+    font-size: 70px;
+    text-shadow: 0 0 0.2em rgb(15, 20, 44)
+}
+.welcome-banner {
+    text-align: center;
+}

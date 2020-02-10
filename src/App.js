@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Layout from "./core/components/NavigationBar/index"
+import { Jumbotron, Container } from 'react-bootstrap'
+import "./style.css"
 
-function App() {
+const App = () => {
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<Layout>
+  <h1 className="header">Words of Glory</h1>
+  <div className="containerMainPg">
+    <img src="/images/requestedHeader.png" alt="Words_of_Glory" id="WordsOfGlory" />
+  <Jumbotron fluid style={{background:'none'}}>
+  <Container>
+    <div className="welcome-banner">
+    <h1>Welcome to Words of Glory</h1>
+    <p>This is a test site of a library that is to come. What you see here is a sample of what will be on our official site. Thank you for visiting. Any questions please direct them to No Limits Ministries at NoLimitsMinistries@mail.com</p>
     </div>
-  );
+  </Container>
+</Jumbotron>
+  </div>
+</Layout>
+  )
 }
 
 export default App;

@@ -1,0 +1,169 @@
+h2 {
+    text-align: center;
+}
+
+.settings-btn{
+    float: right;
+    margin-right: 10rem;
+    margin-top: -45px;
+    float: right;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    padding: 3px;
+
+}
+.settings-btn:hover{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.settings-form {
+    margin-left: -40%;
+    width: 180%;
+}
+
+.settings-label {
+    margin-left: -40%;
+}
+
+.settings-submit-btn {
+    display: flex;
+    justify-content: center;
+}
+.settings-submit {
+    width: 200px;
+    margin: 2px;
+}
+.settings-modal-close{
+    display: flex;
+    justify-content: center;
+}
+.settings-modal-btn {
+    width: 200px;
+}
+.settings-title{ 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.noteSection-tab {
+    margin: 5px 0 5px 5%;
+    float: left;
+    padding: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.noteSection-tab:hover {
+    color: beige;
+}
+
+.bookmarkSection-tab {
+    margin: 5px 0 5px 5%;
+    float: left;
+    padding: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.bookmarkSection-tab:hover {
+color: beige;
+}
+
+.empty {
+ border: none;
+ background: none;
+ cursor: unset;
+}
+
+.noteSection { 
+    height: 70vh;
+    width: 85%; 
+    background-color: rgb(172,175,182);
+    position: absolute;
+    overflow: auto;
+    border-radius: 10px;
+}
+.bookmarkSection { 
+    height: 70vh;
+    width: 85%; 
+    background-color: rgb(172,175,182);
+    position: absolute;
+    overflow: auto;
+    border-radius: 10px;
+}
+.profile-body {
+    display: flex; 
+    justify-content: flex-end;
+    margin-right: 3%;
+}
+.profile-tabs {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: -10vh 0 0 10px;
+    height: 80vh;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(172,175,182);
+    
+}
+.note-textbox {
+    width: 100%;
+}
+.note-title {
+    float: left;
+}
+.note-category {
+    text-align: center;
+}
+.note-date {
+    float: right;
+    margin-top: -25px;
+}
+::-webkit-input-placeholder {
+    color:    black;
+}
+#note-name-header {
+    text-align: center;
+    padding: 10px;
+}
+.deleteNote-btn {
+    margin-left: 30px;
+}
+.note-group {
+    margin: 5px;
+    border-radius: 10px;
+}
+.bookmark-link {
+    margin-top: 10px;
+    float: right;
+}
+.bookmark-category {
+    font-weight: bold;
+}
+.bookmark-date {
+
+}
+.note-title {
+    width: 66rem;
+    color: rgb(31, 56, 56);
+}
+.note-date {
+ margin-right: 100px;
+ margin-top: -70px;
+ color: rgb(38, 56, 56);
+}
+.note-category:hover {
+text-decoration: none;
+}
+.note-category {
+    color: rgb(31, 56, 56);
+}

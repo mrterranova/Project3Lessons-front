@@ -1,0 +1,41 @@
+.Signin-pg {
+    text-align: center;
+}
+.Signin-secondary-auth {
+    text-align: center;
+}
+.btn-default{ 
+    border-radius: 50px;
+    background-color: rgb(234, 240, 241);
+    width: 600px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-default:hover{
+    border: 3px solid rgb(208, 217, 219);
+}
+.btn-tab {
+    margin-left: 20px;
+}
+#google-login{
+    max-height: 40px;
+}
+#facebook-logo {
+    max-height: 40px;
+}
+.login-email-label {
+float: left;
+}
+.login-email-field {
+width: 100%;
+}
+.login-password-label {
+float: left;
+}
+.login-password-field {
+width: 100%;
+}
+.forgot-password-link {
+    margin-left: 50%;
+}
