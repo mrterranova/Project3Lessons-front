@@ -54,6 +54,7 @@ const UserNotes = ({ history }) => {
                             //notes that do not belong to this lesson are reported in console.
                         }
                     })
+                    return note;
                 }
             })
     };
