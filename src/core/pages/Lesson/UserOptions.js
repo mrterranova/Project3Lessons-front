@@ -46,10 +46,11 @@ const UserNotes = ({ history }) => {
                 //set all the values of the user
                 if (response.data.notes.length === 0) {
                     //if the user has notes identify if there are notes that belong to this lesson
+                    console.log("No NOTES")
                 } else {
                     response.data.notes.map(note => {
                         if (note.Lesson_id === URL_id[0]) {
-
+                            console.log("YOU HAVE A NOTE", URL_id[0])
                             setValues({ ...values, NoteId: note._id, title: note.title, category: note.category, body: note.body })
                             //notes that do not belong to this lesson are reported in console.
                         }
@@ -61,7 +62,8 @@ const UserNotes = ({ history }) => {
 }
 
     const { NoteId, title, category, body, bookcategory } = values;
-
+    
+    console.log("TITLE", title)
     //handle all edits to the notes as a POST
     const handleSubmitEdit = () => {
         const URLarray = window.document.URL.split("/")
@@ -84,6 +86,7 @@ const UserNotes = ({ history }) => {
                     },
                     data: { Lesson_id: URL_id[0], title: title, category: category, body: body, User_id: userId, _id: NoteId }
                 }).then(response => {
+                    console.log("RESPONSE", response.data)
                 })
             })
     }
